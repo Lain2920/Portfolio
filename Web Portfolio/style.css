@@ -1,0 +1,59 @@
+header{ height: 100px;
+        background-color:blanchedalmond;
+        opacity: 0.5;
+}
+/* added opacity to the header to experiment with the overall look */
+div{text-align: center;
+    font-size: 30px;
+    color: #403933;
+    }
+
+
+/*aligned all div text to center along with all other text to keep uniformity*/
+
+h2{
+  color:whitesmoke; text-align: center; text-decoration: indianred;
+}
+
+p{  font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px; }
+
+body{ align-content: center;
+      background-image: url(
+    "Images/nasa-earth-views.jpg"
+  )
+}
+/* added the space station background because I like to dream big and I figure if I shoot for the moon with this journey I'll land in the stars. Corny but I have to be right now!*/
+
+section {
+	padding: 0 25%;
+  margin: 80px 0;
+}
+
+ol{ font-family: Arial, Helvetica, sans-serif;
+color: white;
+font-size: 14px;
+}
+
+a {
+	font-weight: 700;	
+}
+a:link { color: #4B5A81; }
+a:visited { color: #F63228; }
+a:hover { color: #21AAD4; }
+a:active { color: #403933; }	
+}
+
+/* tried to implement hex color codes just to see how they work within the CSS sheet*/
+
+img, iframe{
+  width: 100%;
+  border-radius: 8px;
+  border: 1px dotted #403933;
+}
+
+footer{ height: 100px; 
+        opacity: 0.6;
+        text-align: center;
+        background-color: blanchedalmond;}
